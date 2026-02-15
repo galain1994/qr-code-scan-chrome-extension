@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "QR Code Scanner",
+    "description": "Name of the extension"
+  },
+  "extDescription": {
+    "message": "Scan QR codes and barcodes on the current page and navigate to their URLs or copy their content",
+    "description": "Description of the extension"
+  },
+  "scanButton": {
+    "message": "Scan QR Codes",
+    "description": "Button text to start scanning"
+  },
+  "scanning": {
+    "message": "Scanning for QR codes...",
+    "description": "Status message while scanning"
+  },
+  "foundOne": {
+    "message": "Found 1 QR code! Click it to navigate or copy.",
+    "description": "Message when one QR code is found"
+  },
+  "foundMultiple": {
+    "message": "Found $COUNT$ QR codes! Click one to navigate or copy.",
+    "description": "Message when multiple QR codes are found",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "notFound": {
+    "message": "No QR codes found on this page.",
+    "description": "Message when no QR codes are found"
+  },
+  "error": {
+    "message": "An error occurred. Please try again.",
+    "description": "Error message"
+  },
+  "retry": {
+    "message": "Retry",
+    "description": "Button text to retry scanning"
+  },
+  "qrCodeType": {
+    "message": "QR Code",
+    "description": "QR code type label"
+  },
+  "copyButton": {
+    "message": "Copy",
+    "description": "Copy button text"
+  },
+  "copied": {
+    "message": "Copied!",
+    "description": "Feedback when content is copied"
+  },
+  "copyFailed": {
+    "message": "Failed",
+    "description": "Feedback when copy fails"
+  },
+  "rescanButton": {
+    "message": "Rescan",
+    "description": "Button text to rescan QR codes"
+  },
+  "closeButton": {
+    "message": "Close",
+    "description": "Button text to close highlights"
+  },
+  "qrCodeContent": {
+    "message": "QR Code Content: $CONTENT$",
+    "description": "Alert message showing QR code content",
+    "placeholders": {
+      "content": {
+        "content": "$1",
+        "example": "Hello World"
+      }
+    }
+  }
+}

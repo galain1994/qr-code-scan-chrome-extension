@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "二维码扫描器",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "扫描当前页面上的二维码和条形码，并导航到其URL或复制其内容",
+    "description": "扩展描述"
+  },
+  "scanButton": {
+    "message": "扫描二维码",
+    "description": "开始扫描的按钮文本"
+  },
+  "scanning": {
+    "message": "正在扫描二维码...",
+    "description": "扫描时的状态消息"
+  },
+  "foundOne": {
+    "message": "找到 1 个二维码！点击以导航或复制。",
+    "description": "找到一个二维码时的消息"
+  },
+  "foundMultiple": {
+    "message": "找到 $COUNT$ 个二维码！点击其中一个以导航或复制。",
+    "description": "找到多个二维码时的消息",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "notFound": {
+    "message": "此页面未找到二维码。",
+    "description": "未找到二维码时的消息"
+  },
+  "error": {
+    "message": "发生错误，请重试。",
+    "description": "错误消息"
+  },
+  "retry": {
+    "message": "重试",
+    "description": "重试扫描的按钮文本"
+  },
+  "qrCodeType": {
+    "message": "二维码",
+    "description": "二维码类型标签"
+  },
+  "copyButton": {
+    "message": "复制",
+    "description": "复制按钮文本"
+  },
+  "copied": {
+    "message": "已复制！",
+    "description": "内容已复制的反馈"
+  },
+  "copyFailed": {
+    "message": "失败",
+    "description": "复制失败的反馈"
+  },
+  "rescanButton": {
+    "message": "重新扫描",
+    "description": "重新扫描二维码的按钮文本"
+  },
+  "closeButton": {
+    "message": "关闭",
+    "description": "关闭高亮的按钮文本"
+  },
+  "qrCodeContent": {
+    "message": "二维码内容：$CONTENT$",
+    "description": "显示二维码内容的提示消息",
+    "placeholders": {
+      "content": {
+        "content": "$1",
+        "example": "你好世界"
+      }
+    }
+  }
+}
